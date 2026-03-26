@@ -1,0 +1,26 @@
+{
+  "name": "course-recommender-agent",
+  "version": "1.0.0",
+  "description": "Course Recommender Agent — Function Calling vs MCP demo",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "function-calling": "tsx function-calling/agent.ts",
+    "mcp-server": "tsx mcp-version/mcp-server/index.ts",
+    "mcp-agent": "tsx mcp-version/mcp-agent/agent.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mistralai/mistralai": "^2.1.2",
+    "@modelcontextprotocol/sdk": "^1.27.1",
+    "dotenv": "^17.3.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
